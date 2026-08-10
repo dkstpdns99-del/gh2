@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@media print {
+  header, footer, nav, .print\:hidden, #download-pdf-btn, button {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #191c17 !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+}

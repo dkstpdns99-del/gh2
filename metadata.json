@@ -1,0 +1,6 @@
+{
+  "name": "나만의 커리어앵커",
+  "description": "에드거 샤인(Edgar Schein)의 8가지 커리어 앵커 진단 및 AI 맞춤 직무 해설/인사이트 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
